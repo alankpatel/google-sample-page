@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google</title>
+    <style>
+body {
+  margin: 0;
+}
+
+nav {
+  width: 100%;
+  background-color: white;
+  margin: 0;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.navbar-bottom{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: grey;
+  margin: 0;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item a {
+  display: inline-block;
+  padding: 10px 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-item:hover {
+  background-color: white;
+}
+
+.nav-item:hover a {
+  color: darkgreen;
+}
+#sign-in{
+  background: blue;
+  color: white;
+}
+.logo{
+  margin-top:200px;
+  margin-bottom:20px;
+  margin-left: 600px;
+}
+.bar{
+  margin:0 auto;
+  width:575px;
+  border-radius:30px;
+  border:1px solid #dcdcdc;
+}
+.bar:hover{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+.bar:focus-within{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  outline:none;
+}
+.searchbar{
+  height:45px;
+  border:none;
+  width:500px;
+  font-size:16px;
+  outline: none;
+  
+}
+.voice{
+  height:20px;
+  position:relative;
+  top:5px;
+  left:10px;
+}
+.buttons{
+  margin-top:30px;
+  margin-bottom:20px;
+  margin-left: 550px;
+}
+.button{
+  background-color: #f5f5f5;
+  border:none;
+  color:#707070;
+  font-size:15px;
+  padding: 10px 20px;
+  margin:5px;
+  border-radius:4px;
+  outline:none;
+}
+.button:hover{
+  border: 1px solid #c8c8c8;
+  padding: 9px 19px;
+  color:#808080;
+}
+.button:focus{
+  border:1px solid #4885ed;
+  padding: 9px 19px;
+}
+
+    </style>
+</head>    
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="nav-links">
+              <li class="nav-item"><a href="#">Gmail</a></li>
+              <li class="nav-item"><a href="#">Images</a></li>
+              <li class="nav-item"><a href="#"><img src="/google-sample-page/outline_apps_black_24dp.png" alt="logo"></a></li>
+              <li class="nav-item"><a href="#"><button id="sign-in">Sign In</button></a></li>
+            </ul>
+          </nav>
+      </header>   
+
+<div class ="logo"><img src="/google-sample-page/logo.png" alt="google logo"></div>
+<div class="bar">
+    <input class="searchbar" type="text" title="Search">
+    <a href="#"> <img class="voice" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png" title="Search by Voice"></a>
+</div>
+
+<div class="buttons">
+    <button class="button" type="button">Google Search</button>
+    <button class="button" type="button">I'm Feeling Lucky</button>
+   </div>
+
+<footer>
+    <nav class="navbar-bottom">
+        <ul class="nav-links">
+          <li class="nav-item"><a href="#">Advertising</a></li>
+          <li class="nav-item"><a href="#">Business</a></li>
+          <li class="nav-item"><a href="#">How Search Works</a></li>
+        </ul>
+      </nav>
+</footer>  
+</body>
+</html>
